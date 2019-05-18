@@ -25,7 +25,7 @@ export function deleteCountry(id) {
         id
     };
 }
-export function searchCountry(searchText) {
+export function searchCountries(searchText) {
     return {
         type: SEARCH_COUNTRIES,
         searchText
